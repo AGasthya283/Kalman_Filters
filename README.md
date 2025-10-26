@@ -82,6 +82,7 @@ Each notebook builds from the **Bayesian estimation foundation**:
 $$
 p(x_k | z_{1:k}) = \frac{p(z_k | x_k) \, p(x_k | z_{1:k-1})}{p(z_k | z_{1:k-1})}
 $$
+
 and leads to recursive formulations of the predict-update cycle:
 
 #### Prediction Step
